@@ -1,2 +1,2 @@
 # ARtest
-Panick
+Location based AR Test with mapbox
