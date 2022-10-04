@@ -1,0 +1,11 @@
+Model Information:
+* title:	HololiveEN Hope - Smol IRyS
+* source:	https://sketchfab.com/3d-models/hololiveen-hope-smol-irys-713e4ec71b074a81bacc3a192c198f37
+* author:	KirbyDX (https://sketchfab.com/kirbydx)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "HololiveEN Hope - Smol IRyS" (https://sketchfab.com/3d-models/hololiveen-hope-smol-irys-713e4ec71b074a81bacc3a192c198f37) by KirbyDX (https://sketchfab.com/kirbydx) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
