@@ -59,13 +59,13 @@ namespace UnityARInterface
 				//we're going to get the position from the contact point
 				foundSquare.transform.position = hit.point;
 				//Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.transform.position.x, foundSquare.transform.position.y, foundSquare.transform.position.z));
-				Debug.Log(hit.collider.gameObject.name);
+				//Debug.Log(hit.collider.gameObject.name);
                 
 				Collision_AR collision_AR = hit.collider.gameObject.GetComponent<Collision_AR>();
 				if (collision_AR!=null)
 				{
-					collision_AR.EnableSecond();
-					Debug.Log("hahahahah");
+					collision_AR.ToggleObject();
+					//Debug.Log("hahahahah");
 				}
 				//and the rotation from the transform of the plane collider
 				SquareState = FocusState.Found;

@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Collision_AR : MonoBehaviour
 {
-    public GameObject secondBody;
-    private void OnCollisionEnter(Collision collision)
+    public GameObject CanvasUI;
+    private bool isEnable=false;
+    private void Start()
     {
-        Debug.Log("Hello");
+        CanvasUI.SetActive(false);
     }
-    public void EnableSecond()
+    public void ToggleObject()
     {
-        Debug.Log("Hello");
+        CanvasUI.SetActive(true);
 
-        secondBody.SetActive(false);
+        /*if (!isEnable)
+        {
+            isEnable = true;
+            Debug.Log(isEnable);
+        }
+        else
+        {
+            isEnable = false;
+            Debug.Log(isEnable);
+
+        }*/
     }
 }

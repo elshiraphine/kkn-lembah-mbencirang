@@ -38,18 +38,19 @@
 				instance.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
 				_spawnedObjects.Add(instance);
 			}
+		
 		}
 
 		private void Update()
 		{
-			int count = _spawnedObjects.Count;
-			for (int i = 0; i < count; i++)
-			{
-				var spawnedObject = _spawnedObjects[i];
-				var location = _locations[i];
-				spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
-				spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
-			}
-		}
+            int count = _spawnedObjects.Count;
+            for (int i = 0; i < count; i++)
+            {
+                var spawnedObject = _spawnedObjects[i];
+                var location = _locations[i];
+                spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
+                spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
+            }
+        }
 	}
 }
