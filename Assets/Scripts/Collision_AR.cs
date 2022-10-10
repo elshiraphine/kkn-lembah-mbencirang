@@ -6,8 +6,12 @@ public class Collision_AR : MonoBehaviour
 {
     public GameObject CanvasUI;
     private bool isEnable=false;
+    private GameObject EndingObject;
+
     private void Start()
     {
+        EndingObject = GameObject.FindGameObjectWithTag("Finish");
+
         CanvasUI.SetActive(false);
     }
     public void ToggleObject()

@@ -15,7 +15,7 @@ namespace UnityARInterface
 
 		public GameObject findingSquare;
 		public GameObject foundSquare;
-
+		public GameObject EndingObject;
 		//for editor version
 		public float maxRayDistance = 30.0f;
 		public LayerMask collisionLayerMask; 
@@ -65,6 +65,11 @@ namespace UnityARInterface
 				if (collision_AR!=null)
 				{
 					collision_AR.ToggleObject();
+					//Debug.Log("hahahahah");
+				}
+				if (hit.collider.gameObject.CompareTag("Finish"))
+				{
+					EndingObject.SetActive(true);
 					//Debug.Log("hahahahah");
 				}
 				//and the rotation from the transform of the plane collider
