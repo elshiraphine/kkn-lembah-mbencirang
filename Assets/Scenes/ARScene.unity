@@ -4731,7 +4731,7 @@ PrefabInstance:
     - target: {fileID: 114427239951516970, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
       propertyPath: _latitudeLongitude
-      value: -7.279286543536522, 112.79576969555607
+      value: -7.635814, 112.486435
       objectReference: {fileID: 0}
     - target: {fileID: 114456134194806508, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
@@ -5693,7 +5693,8 @@ MonoBehaviour:
   _locationStrings:
   - 7.635607, 112.486646
   _spawnScale: 0.1
-  _markerPrefab: {fileID: 100002, guid: a07f82b022939074088a0e3e0460820d, type: 3}
+  _markerPrefab: {fileID: 1867849656403013624, guid: 979936cb34fdd424c9d43d14a26a7e52,
+    type: 3}
 --- !u!114 &2054992585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5710,7 +5711,8 @@ MonoBehaviour:
   _locationStrings:
   - -7.635593, 112.487154
   _spawnScale: 0.1
-  _markerPrefab: {fileID: 100002, guid: 8656340c6833e294482fe14af2b85e78, type: 3}
+  _markerPrefab: {fileID: 9074454173636838894, guid: 8d75ed73371ece249ae6c752a75ea681,
+    type: 3}
 --- !u!114 &2054992586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5725,9 +5727,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _map: {fileID: 131486500}
   _locationStrings:
-  - -7.279421030524833, 112.79586904791945
+  - -7.635593, 112.487154
   _spawnScale: 0.1
-  _markerPrefab: {fileID: 100002, guid: 4a3a2a1bc4ce2e745b0db18a970d1067, type: 3}
+  _markerPrefab: {fileID: 5452566009561256500, guid: 0deb0b003b97fb3479148aec5b5b778f,
+    type: 3}
 --- !u!114 &2054992587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5744,7 +5747,8 @@ MonoBehaviour:
   _locationStrings:
   - -7.635983, 112.487167
   _spawnScale: 0.1
-  _markerPrefab: {fileID: 100002, guid: 63ba9a384be7c474cb512fc0514bb84f, type: 3}
+  _markerPrefab: {fileID: 6895360145051011742, guid: 820a129dcceb9024b940f2306c5b0582,
+    type: 3}
 --- !u!114 &2054992588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5761,7 +5765,8 @@ MonoBehaviour:
   _locationStrings:
   - -7.636259, 112.486843
   _spawnScale: 0.1
-  _markerPrefab: {fileID: 100002, guid: d3d563ea3ae396644ac60ed225da08be, type: 3}
+  _markerPrefab: {fileID: 3282840782756799435, guid: 4db3f84c713f1c248a42c77e04153aa5,
+    type: 3}
 --- !u!114 &2054992589
 MonoBehaviour:
   m_ObjectHideFlags: 0
