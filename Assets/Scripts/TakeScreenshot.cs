@@ -51,7 +51,10 @@ public class TakeScreenshot : MonoBehaviour
         yield return tex;
         string path = SaveImageToGallery(tex, fileName, "ARVM AR Screenshot");
         Console.Instance.Log("Picture has been saved at:" + path, "blue");
-
+        foreach (GameObject item in disabledUI)
+        {
+            item.SetActive(true);
+        }
     }
 
 
