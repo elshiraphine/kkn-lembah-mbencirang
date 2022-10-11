@@ -14,7 +14,7 @@ public class TakeScreenshot : MonoBehaviour
         {
             item.SetActive(false);
         }
-        StartCoroutine(Capture());
+        //StartCoroutine(Capture());
         StartCoroutine(CaptureScreenshotCoroutine(Screen.width, Screen.height));
 
     }
@@ -50,7 +50,8 @@ public class TakeScreenshot : MonoBehaviour
         string fileName = "ARSC_screenshot" + timestamp;
         yield return tex;
         string path = SaveImageToGallery(tex, fileName, "ARVM AR Screenshot");
-        Debug.Log("Picture has been saved at:\n" + path);
+        Console.Instance.Log("Picture has been saved at:" + path, "blue");
+
     }
 
 
